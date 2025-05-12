@@ -1,0 +1,3 @@
+add_hamzstplot_example(example_fplot3_1 fplot3_1.cpp)
+add_hamzstplot_example(example_fplot3_2 fplot3_2.cpp)
+add_hamzstplot_example(example_fplot3_3 fplot3_3.cpp)

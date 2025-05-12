@@ -1,0 +1,12 @@
+macro(add_hamzstplot_example TARGET_NAME)
+    add_executable(${TARGET_NAME} ${ARGN})
+    target_link_libraries(${TARGET_NAME} PRIVATE hamzstplot)
+    maybe_target_pedantic_warnings(${TARGET_NAME})
+    if (HAMZSTPLOTPP_BUILD_TESTS)
+        add_test(NAME ${TARGET_NAME} COMMAND ${TARGET_NAME})
+        set_tests_properties(${TARGET_NAME} PROPERTIES ENVIRONMENT "GNUTERM=dumb")
+    endif()
+endmacro()
+
+add_subdirectory(line_plot)
+add_subdirectory(polar_plots)

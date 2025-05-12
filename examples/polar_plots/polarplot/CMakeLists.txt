@@ -1,0 +1,3 @@
+add_hamzstplot_example(example_polarplot_1 polarplot_1.cpp)
+add_hamzstplot_example(example_polarplot_2 polarplot_2.cpp)
+add_hamzstplot_example(example_polarplot_3 polarplot_3.cpp)

@@ -1,0 +1,10 @@
+//
+// Created by Alan Freitas on 11/08/20.
+//
+
+#ifndef HAMZSTPLOTPLUSPLUS_FIGURE_FUNCTIONS_H
+#define HAMZSTPLOTPLUSPLUS_FIGURE_FUNCTIONS_H
+
+namespace hamzstplot {}
+
+#endif // HAMZSTPLOTPLUSPLUS_FIGURE_FUNCTIONS_H
