@@ -8,6 +8,9 @@ The reason to create this is to learn more on how to create a plotting library w
 
 We have SymIntegration library, and it can compute several integral computations, if we can plot the result of an integrated function with this, then it will be great. Even with backend still need Gnuplot or OpenGL, the raw coding with C++ to plot a function is really helpful.
 
+# Manual Book
+
+<a href="https://github.com/glanzkaiser/Hamzstplot/blob/main/Hamzstlab%20Mathematics%20and%20Hamzstplot.pdf">Click</a>
 
 # Build and Install
 
