@@ -5,7 +5,7 @@ int main() {
 	using namespace hamzstplot;
 
 	auto x = linspace(0, 1.1*pi);
-	//y(t) = y_{0} * k / (y_{0} + (K - y_{0})*e^{-rt})
+	//y(t) = y_{0} * K / (y_{0} + (K - y_{0})*e^{-rt})
 	auto y1 = transform(x, [](double x) { return (1*5) / (1+(5-1)*(exp(-2*x))); }); // r = 2, K = 5, y_{0} = 1
 	auto y2 = transform(x, [](double x) { return (2*5) / (2+(5-2)*(exp(-2*x))); }); // r = 2, K = 5, y_{0} = 2
 	auto y3 = transform(x, [](double x) { return (3*5) / (3+(5-3)*(exp(-2*x))); }); // r = 2, K = 5, y_{0} = 3
