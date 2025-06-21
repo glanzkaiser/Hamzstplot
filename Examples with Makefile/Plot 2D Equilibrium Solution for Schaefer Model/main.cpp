@@ -6,8 +6,11 @@ int main() {
 
 	std::vector<double> x = linspace(-0.5, 3.5);
 	// dy/dt = r(1-y/K)y - Ey
-	// r = 5, E = 1.5, K = 3
-	std::vector<double> y = transform(x, [](auto x) { return 5*(1-(x/3))*x - 1.5*x; });
+	std::vector<double> y = transform(x, [](auto x) { 
+	float r = 5;
+	float E = 1.5;
+	float K = 3;	
+	return r*(1-(x/K))*x - E*x; });
 	plot(x, y)->color({0.1f, 0.7f, 0.9f});
 	plot(x, y,"-o")->marker_indices({13,38,64});
 	xticks({});

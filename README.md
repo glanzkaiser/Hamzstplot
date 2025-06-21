@@ -12,6 +12,18 @@ We have SymIntegration library, and it can compute several integral computations
 
 <a href="https://github.com/glanzkaiser/Hamzstplot/blob/main/Hamzstlab%20Mathematics%20and%20Hamzstplot.pdf">Click</a>
 
+| Status | Name | Details |
+| -------------     | ------------- | ------------- | 
+|:writing_hand:| Intermediate Calculus	        					| Not yet
+|:writing_hand:| Differential Equations		       					| Not yet
+|:writing_hand:| Partial Differential Equations	     					| Not yet
+|:writing_hand:| Probability and Data Analysis        					| Not yet
+|:writing_hand:| Linear and Nonlinear Programming    					| Not yet
+|:writing_hand:| Introduction to Theory of Interest and Financial Mathematics		| Not yet
+|:writing_hand:| Introduction to Stochastic Processes					| Not yet
+|:writing_hand:| Numerical Analysis		     					| Not yet
+|:writing_hand:| Complex Numbers		      					| Not yet
+
 # Build and Install
 
 In GFreya OS all the dependencies are already installed, from Gnuplot, CMake to GCC with C++17, OpenGL with its friends -> GLAD, GLFW.
